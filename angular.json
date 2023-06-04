@@ -30,8 +30,12 @@
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/popper.js/dist/popper.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["src", "./node_modules"]
+            }
           },
           "configurations": {
             "production": {
